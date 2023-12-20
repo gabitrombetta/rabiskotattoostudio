@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .tatuador-imagem img{
@@ -58,7 +59,7 @@
     }
     .tatuador p{
         font: 400 1.2rem/1.5 "Roboto", sans-serif;
-        padding-left: 20px;
+        padding-left: 25px;
     }
 }
 

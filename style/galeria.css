@@ -1,0 +1,79 @@
+.galeria-bg{
+    background-color: var(--cor-11);
+    padding-bottom: 60px;
+}
+
+.galeria-imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.galeria-imagens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.galeria-conteudo h1{
+    font: 600 3.8rem/1.125 "Poppins", sans-serif;
+    position: relative;
+    padding-left: 15px;
+    padding-top: 80px;
+    margin-bottom: 12px;
+    color: var(--cor-0);
+    grid-column: 1/4;
+}
+
+.galeria-conteudo h1::before{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background-color: #818181;
+    rotate: 90deg;
+    position: absolute;
+    top: 112px;
+    left: -30px;
+}
+
+.galeria-conteudo p{
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    padding-left: 20px;
+    color: var(--cor-4);
+    margin-bottom: 60px;
+}
+
+@media (max-width: 800px){
+    .galeria-imagens{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .galeria-imagens img:last-child{
+        display: none
+    }
+    .galeria-conteudo h1{
+        font-size: 3.2rem;
+        padding-left: 20px;
+    }
+    .galeria-conteudo h1::before{
+        width: 60px;
+        top: 108px;
+        left: -20px;
+    }
+    .galeria-conteudo p{
+        font-size: 1.2rem;
+        padding-left: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    .galeria-imagens{
+        grid-template-columns: 1fr;
+    }
+    .galeria-imagens img:last-child{
+        display: block;
+    }
+}

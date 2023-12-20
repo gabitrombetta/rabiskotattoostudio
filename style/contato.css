@@ -1,0 +1,39 @@
+.contato-bg{
+    background: linear-gradient(var(--cor-11) 300px, var(--cor-0) 0px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    padding: 60px;
+}
+
+.contato-titulo h1{
+    font: 600 3.8rem/1.125 "Poppins", sans-serif;
+    position: relative;
+    padding-left: 25px;
+    padding-top: 140px;
+    margin-bottom: 32px;
+}
+
+.contato-titulo h1::before{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 4px;
+    background-color: #818181;
+    rotate: 90deg;
+    position: absolute;
+    top: 175px;
+    left: -20px;
+}
+
+.contato-conteudo a{
+    color: var(--cor-4);
+}
+
+.contato-conteudo li{
+    color: var(--cor-9);
+}
+
+.contato-mapa img{
+    padding: 60px;
+}
