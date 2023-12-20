@@ -1,0 +1,9 @@
+.intro img{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.intro h1{
+    position: absolute;
+}

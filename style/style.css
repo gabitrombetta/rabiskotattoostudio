@@ -1,1 +1,9 @@
-@import "global.css"
+@import "global.css";
+@import "cores.css";
+
+/* HEADER */
+@import "header.css";
+
+
+/* INTRO */
+@import "intro.css";
