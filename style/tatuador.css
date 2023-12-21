@@ -46,7 +46,7 @@
         font: 600 3.2rem/1.125 "Poppins", sans-serif;
         position: relative;
         padding-left: 15px;
-        padding-top: 60px;
+        padding-top: 80px;
         margin-bottom: 20px;
     }
     .tatuador h1::before{
@@ -56,49 +56,20 @@
         height: 4px;
         rotate: 90deg;
         position: absolute;
-        top: 88px;
+        top: 106px;
         left: -20px;
     }
     .tatuador p{
-        font: 400 1.2rem/1.5 "Roboto", sans-serif;
+        font: 400 1.3rem/1.5 "Roboto", sans-serif;
         padding-left: 25px;
-    }
-}
-
-@media (max-width:900px){
-    .tatuador{
-        margin-top: 40px;
-        gap: 40px;
-    }
-    .tatuador p{
-        font: 400 1.1rem/1.4 "Roboto", sans-serif;
-        padding-left: 20px;
-    }
-    .tatuador-conteudo h1{
-        padding-top: 40px;
-        margin-bottom: 8px;
-    }
-    .tatuador h1::before{
-        top:67px;
     }
 }
 
 @media (max-width:800px){
     .tatuador{
-        margin-top: 80px;
-    }
-    .tatuador-conteudo h1{
-        padding-top: 20px;
-        margin-bottom: 12px;
-    }
-    .tatuador h1::before{
-        top: 47px;
-    }
-}
-
-@media (max-width:700px){
-    .tatuador{
-        margin-top: 40px;
+        grid-template-columns: 1fr;
+        margin-top: 20px;
+        gap: 20px;
     }
     .tatuador-conteudo h1{
         padding-top: 20px;

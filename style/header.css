@@ -52,6 +52,12 @@
     .header{
         flex-direction: column;
     }
+    .header-menu{
+        margin: 0 auto;
+    }
+    .botao{
+        margin: 0 auto;
+    }
     .header-menu, .header-container{
         gap: 20px;
     }
