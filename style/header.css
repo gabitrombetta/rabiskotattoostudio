@@ -75,3 +75,12 @@
     }
 }
 
+@media (max-width: 500px){
+    .header-menu{
+        margin: 0 auto;
+    }
+    .botao{
+        margin: 0 auto;
+    }
+}
+
