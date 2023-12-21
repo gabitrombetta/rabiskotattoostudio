@@ -40,19 +40,30 @@
 }
 
 .contato-mail{
+    padding-left: 25px;
     margin-bottom: 32px;
+    background: url(../icones/contato-local/email.svg) no-repeat 0px;
 }
 
 .contato-fone{
+    padding-left: 25px;
     margin-bottom: 60px;
-}
-
-.contato-meios:first-child{
-    background: url();
+    background: url(../icones/contato-local/telefone.svg) no-repeat 0px;
 }
 
 .contato-local, .contato-horario{
     color: var(--cor-9);
+}
+
+.contato-local{
+    padding-left: 25px;
+    background: url(../icones/contato-local/local.svg) no-repeat 0px;
+    background-position: 0% 5%;
+}
+
+.contato-horario{
+    padding-left: 25px;
+    background: url(../icones/contato-local/horario.svg) no-repeat 0px;
 }
 
 .contato-redes{
