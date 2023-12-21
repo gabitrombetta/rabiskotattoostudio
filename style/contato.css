@@ -27,7 +27,7 @@
     display: inline-block;
     width: 70px;
     height: 4px;
-    background-color: #818181;
+    background-color: var(--cor-3);
     rotate: 90deg;
     position: absolute;
     top: 115px;
