@@ -1,0 +1,52 @@
+.footer{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr;
+    gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer h2{
+    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.footer-contato ul{
+    margin-bottom: 32px;
+}
+
+.linha::after{
+    content: "";
+    display: block;
+    max-width: 360px;
+    height: 2px;
+    background-color: var(--cor-2);
+    margin-top: 16px;
+}
+
+.linha:nth-child(2):after{
+    margin-bottom: 40px;
+}
+
+.footer li{
+    margin-bottom: 16px;
+}
+
+.footer-redes{
+    display: flex;
+    gap: 32px;
+}
+
+.footer a{
+    color: var(--cor-12);
+}
+
+.footer a:hover{
+    color: var(--cor-8);
+}
+
+.footer-copy{
+    grid-column: 1/-1;
+    margin-top: 40px;
+}
